@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Algorithm_java.iml" filepath="$PROJECT_DIR$/.idea/Algorithm_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrayaverage/arrayaverage.iml" filepath="$PROJECT_DIR$/arrayaverage/arrayaverage.iml" />
       <module fileurl="file://$PROJECT_DIR$/arraymaxima/arraymaxima.iml" filepath="$PROJECT_DIR$/arraymaxima/arraymaxima.iml" />
+      <module fileurl="file://$PROJECT_DIR$/copytoanotherarray/copytoanotherarray.iml" filepath="$PROJECT_DIR$/copytoanotherarray/copytoanotherarray.iml" />
     </modules>
   </component>
 </project>
