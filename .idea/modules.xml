@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/arrayaverage/arrayaverage.iml" filepath="$PROJECT_DIR$/arrayaverage/arrayaverage.iml" />
       <module fileurl="file://$PROJECT_DIR$/arraymaxima/arraymaxima.iml" filepath="$PROJECT_DIR$/arraymaxima/arraymaxima.iml" />
       <module fileurl="file://$PROJECT_DIR$/copytoanotherarray/copytoanotherarray.iml" filepath="$PROJECT_DIR$/copytoanotherarray/copytoanotherarray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reversearray/reversearray.iml" filepath="$PROJECT_DIR$/reversearray/reversearray.iml" />
     </modules>
   </component>
 </project>
