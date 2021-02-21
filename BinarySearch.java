@@ -12,12 +12,12 @@ import java.util.Arrays;
 
 public class BinarySearch {
     public static int rank(int key, int[] a) {
-        //    Array must be sorted
+        //Array must be sorted
         int lo = 0;
         int hi = a.length - 1;
 
         while (lo <= hi) {
-            //    key is in a[lo..hi] or not present
+            //key is in a[lo..hi] or not present
             int mid = lo + (hi - lo) / 2;
             if (key < a[mid]) {
                 hi = mid - 1;
@@ -37,9 +37,9 @@ public class BinarySearch {
         Arrays.sort(whitelist);
 
         while (!StdIn.isEmpty()) {
-            //    Read key, print if not in whitelist
+            //Read key, print nhung so khong giong nhau giua whitelist va key
             int key = StdIn.readInt();
-            if (rank(key, whitelist) < 0) {
+            if (rank(key, whitelist) == -1) {
                 StdOut.println(key);
             }
 
