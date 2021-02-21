@@ -31,6 +31,9 @@ public class Bai2_1_21 {
                             / 1000.0;
             //de vao duoc String array thi can phai la String, String.format bien floating num --> String
             a[n][3] = String.format("%8.3f", d);
+            //++n chi can dung no se tang n+1 khong can phai dung n truoc moi tang
+            //hien tai a.length = 2, chay while loop lan dau dien 4 elem thi if condition se khong chay n=1
+            //while loop lan 2 if condition chay tao ra them gap 2 slot cho array so voi ban dau
             if (++n == a.length) {
                 a = resize(a, a.length * 2);
             }

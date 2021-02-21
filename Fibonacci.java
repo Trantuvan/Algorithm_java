@@ -13,14 +13,18 @@ public class Fibonacci {
         }
 
     }
-
+    //recursive faster for small num; larger num need to use for loop
+    /*F(10) = F(9)                      + F(8)
+      F(10) = F(8)        + F(7)        + F(7) + F(6)
+      F(10) = F(7) + F(6) + F(6) + F(5) + 4 more calls.
+      Moi lan Recursive goi chinh no nen phai goi ra 2 F(8), 3 F(7) ... tao ra ganh nang cho so lon*/
     // public static long F(int N) {
     //     if (N == 0) return 0;
     //     if (N == 1) return 1;
     //     return F(N - 1) + F(N - 2);
     // }
 
-    //Faster way to run fibonacci sequence
+    //Faster way to run fibonacci sequence (using iterate instead of recursive)
     public static int F(int N) {
         if (N == 0) return 0;
         if (N == 1) return 1;
@@ -32,6 +36,8 @@ public class Fibonacci {
         f[1] = 1;
 
         for (int i = 2; i <= N; i++) {
+            /*o day dung array value goi ra de tinh khong dung recursive
+            iterate N times*/
             f[i] = f[i - 1] + f[i - 2];
         }
         return f[N];
