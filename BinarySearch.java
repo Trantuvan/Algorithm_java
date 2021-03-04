@@ -39,7 +39,7 @@ public class BinarySearch {
         while (!StdIn.isEmpty()) {
             //Read key, print nhung so khong giong nhau giua whitelist va key
             int key = StdIn.readInt();
-            if (rank(key, whitelist) == -1) {
+            if (rank(key, whitelist) != -1) {
                 StdOut.println(key);
             }
 
